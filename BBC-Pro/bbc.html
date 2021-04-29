@@ -143,8 +143,93 @@ html, body{
     padding: 10px;
     margin-left: 4px;
 }
+.first{
+    height: 400px; ;
+}
+blockquote {
+    margin: 0;
+    display: inline;
+}
 
-        
+blockquote p {
+    padding: 15px;
+    background-color:skyblue;
+    border-radius: 5px;
+    width: 150px;
+    height: 200px;
+    text-shadow:yellowgreen;
+  
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+a:link{
+   color: white;
+
+}
+       a:visited{
+           color: violet;
+       } 
+
+    
+a:hover{
+    color: orange;
+    font-size:x-large;
+    font-style: italic;
+}
+a:active{
+    color:skyblue;
+    background-color: black;
+}
+
+div a:visited{
+   
+           color:brown;
+       }
+}
+#link2 a:link{
+    color: black;
+}
+
+#link2 a:visited{
+    color: blue;
+}
+
+#link2 a:hover{
+    color: green;
+    font-size:x-large;
+    font-style: italic;
+}
+#link2 a:active{
+    background-color: black;
+    color: chartreuse;
+}
+
+#link3 a:link{
+    color: black;
+}
+
+#link3 a:visited{
+    color: crimson;
+}
+#link3 a:hover{
+    color: cyan;
+}
+#link3 a:active{
+    background-color: black;
+    color: darkorange;
+}
+
+hr{
+    size: 5px;
+    color: darkgoldenrod;
+}
     </style>
 </head>
 <body>
@@ -189,18 +274,35 @@ html, body{
     <embed src="https://www.youtube.com/embed/hq3yfQnllfQ" title="YouTube video player" type="" id="vid2" height="167" width="320">
     <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" id="img3" alt="" height="170" width="320">
     
-</section>
+    <!-- <a href="https://bbc.com">BBC.com</a>  -->
 
+</section>
+<hr>
 <section class="two">
 <h1>News</h1>
+<div>
+<a href="https://www.google.com/search?q=covid+update&oq=covid+upda&aqs=chrome.0.0i131i433i457j69i57j0i402l2j0i131i433l2j0i131i395i433l4.17524j1j4&sourceid=chrome&ie=UTF-8">Covid Updates</a> <br>
 
 
-<iframe src="https://www.esakal.com" frameborder="0"  height="300px" width="300px" style="margin-left: 50px;"><a href="https://www.esakal.com" target="_blank">Sakal</a></iframe>
-<iframe src="http://epaper.lokmat.com/" frameborder="0"  height="300px" width="300px" style="margin-left: 50px;"><a href="http://epaper.lokmat.com/" target="_blank">Lokmat</a></iframe>
-<iframe src="https://www.bbc.com" frameborder="0"  height="300px" width="300px" style="margin-left: 50px;"><a href="https://www.bbc.com" target="_blank">BBC Breaking</a></iframe>
+</div>
+<br>
+<div id="link2"><a href="https://www.google.com/search?q=covid+vaccine+update&oq=covid+vaccine+u&aqs=chrome.1.69i57j0i20i263i433j0i131i395i433j0i395i433j0i131i395i433j0i20i131i263i395i433i457j0i395i402l2j0i395j0i395i433.11045j1j7&sourceid=chrome&ie=UTF-8">Covid Vaccine Updates</a>
+
+</div>
+<br>
+<div id="link3">
+    <a href="https://www.bbc.com"> Visit BBC Breaking</a>
+
+</div>
+<br>
+
+<iframe src="https://www.esakal.com" frameborder="0"  height="300px" width="350px" style="margin-left: 50px;"><a href="https://www.esakal.com" target="_blank">Sakal</a></iframe>
+<iframe src="http://www.lokmat.com/" frameborder="0"  height="300px" width="350px" style="margin-left: 50px;"><a href="http://www.lokmat.com/" target="_blank" >Lokmat</a></iframe>
+<iframe src="https://www.bbc.com" frameborder="0"  height="300px" width="350px" style="margin-left: 50px;"><a href="https://www.bbc.com" target="_blank">BBC Breaking</a></iframe>
 
 
 </section>
+<hr>
 <br><br>
 <aside>
     <p>“People throw stones at you and you convert them into milestones.”
@@ -234,7 +336,24 @@ html, body{
 </p>
 
 </details>
-</section> 
+
+<figure>
+    <blockquote  >
+        <p style="vertical-align: middle"> Gentleman, he is the best batsman I have ever seen in my life. And unlike most of you, I have seen bradman bat...</p>
+    </blockquote>
+    <figcaption>-John Woodcock</figcaption> 
+</figure>
+
+
+
+<figure style="margin-left: 400px; margin-top: -282px; " >
+    <blockquote>
+        <p style="vertical-align: middle;">Even if my grandchild will not remember the fact that I scored 10,000 runs in one day & test cricket. But they will surely talk about the fact that I was as team mate of Sachin Tendulkar 
+        </p>
+    </blockquote>
+    <figcaption>-Rahul Dravid</figcaption> 
+</figure>
+</section> <hr>
 <br><br>
 
 <section class="four" >
@@ -243,7 +362,7 @@ html, body{
 
     <p style="margin-left: 20px; font-weight: bolder;">1. Dagadusheth Halwai Ganpati <br><address style="margin-left: 20px;"> Ganpati Bhavan, 250, Chhatrapati Shivaji Maharaj Rd,<br> Budhwar Peth, Pune, Maharashtra 411002</address</p>
 
-</section>
+</section><hr>
 <br><br>
 
 <aside id="aside2">
@@ -287,14 +406,14 @@ html, body{
         <cite style="margin-left: 20px;">https://en.wikipedia.org>wiki>Dnyaneshwar</cite>
 </article>
 
-</section>
+</section><hr>
 <br>
 </main>
 
 <footer style="background-color: gray; margin: 20px;">
    <h2 style="text-align: center; color:yellow; margin-bottom: 10px;">  Thanks for Visiting the Page</h2>
 </footer>
-
+<hr>
 </body>
 
 
