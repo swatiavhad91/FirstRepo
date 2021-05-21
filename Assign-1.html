@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<style>
+  .checked {
+  color:orange;
+          }
+
+  *{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    }
+
+  #img1{
+    border-radius: 50%;
+    border: solid 2px black;
+    margin-left: 20px;
+    }
+
+  #img2{
+    height: 30px;
+    width: 50px;
+}
+
+        .headerclass{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 20%;      
+        background-color:#2F364A; 
+        justify-content: flex-end;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 80%;
+            
+          } 
+
+    .sub-container-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-width: 10%;
+        max-width: 17%;
+        height: 100%;
+        border: solid 2px black;
+        background-color:#2F364A; 
+      
+        border-right: none;
+        border-bottom: none;
+        color: white;  
+
+        
+    }
+    .sub-container-2{
+        display:inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-width: 83%;
+        max-width: 83%;
+        height: 100%;
+        
+       
+    }
+
+    .footerclass{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+
+}
+    .sub-container-1 a,p{
+
+      color: gray;
+      margin-left: 60px;
+
+}
+
+</style>
+
+</head>
+<body>
+    <div class="headerclass">
+      <div><img src="../Ass-1 Submission/Assets/Globant_.png" alt="" height="30" width="90" style="padding-top: 10px; margin-right: 890px;" id="logo"></div>
+      <div class="innerflexitems two" style=" padding-top: 10px;padding-bottom: 10px;"><a href="https://www.globant.com/" style="font-weight: bold; color: gray;text-decoration: none;">Help Center</a></div>
+      <div class="innerflexitems three" style=" padding-top: 10px; margin-right: 20px;"><a href="https://www.globant.com/" style="font-weight: bold; color: gray;text-decoration: none; margin-left: 20px;">Our Support</a></div>
+      <div class="innerflexitems four" style=" padding-top: 10px; background-color: skyblue;"><img src="https://th.bing.com/th/id/OIP.NjQp3ZRWzE2kID7I09EwyQHaHa?w=160&h=180&c=7&o=5&pid=1.70" alt="" height="22px" width="22px" id="img1"></div>
+      <div class="innerflexitems five" style="padding-left: 2px; font-weight: bold; background-color: skyblue;  padding-top: 10px;">John Doe</div>
+      <div class="innerflexitems" style="background-color: skyblue;padding-left: 4px;padding-top: 10px; padding-right: 10px;"><i class="fa fa-address-book" aria-hidden="true"></i></div>
+        </div>
+    
+
+<div class="main-container">
+<div class="sub-container-1">
+  <div class="row1" style="border-bottom: solid 2px black;"><input type="button" value="+  ADD A BOOK" style="margin-top: 40px;margin-bottom: 40px; margin-left: 20px; background-color: #F2795A; font-weight: bolder; color: white; border: none; border-radius:8px;padding: 7px; "></div>
+  <br>
+  
+      <div class="fa fa-book" style="margin-left: 20px; margin-bottom: 10px;"><a style="margin-left: 10px; position: relativer;right: 50px;" href="https://www.bing.com/search?q=reading+articles&qs=CT&pq=reading+articles&sc=8-16&cvid=69ECB4DD442741E28CEC0CC1718B1294&FORM=QBRE&sp=1">Now Reading</a></div>
+  
+      <div class="row3" style="background-color: #15A4FA;">
+      <div class="fa fa-chrome" style="margin-left: 20px; padding-bottom: 7px; margin-top: 10px;"><button style="margin-left: 5px; border-color: skyblue; background-color:#15A4FA; ;">Browse</button></div>
+    </div> 
+    
+      <div class="fa fa-shopping-cart" style="margin-top: 10px;margin-left:20px;"><a style="position: relative; right: 50px;" href="https://www.bing.com/search?q=buy%20books&pc=cosp&ptag=G6C1N2047AE19AA1A068&form=CONBNT&conlogo=CT3210127">Buy Books</a></div>
+  
+      <div class="fa fa-star" style="margin-top: 10px;margin-left: 20px;"><a style="position: relative;right: 50px;" href="https://www.bing.com/search?q=favourite+books&qs=n&form=QBRE&sp=-1&ghc=1&pq=favourite+book&sc=8-14&sk=&cvid=59255A0D8B354EA280B7FE86EB53914C">Favourite Books</a></div>
+  
+      <div class="fa fa-list" style="margin-top: 10px; margin-left: 20px;"><a style="position: relative; right: 50px;" href="https://www.google.com/search?q=wishlist+of+web+design&sxsrf=ALeKk03e02k6juSG428W1XfJFieB4daomQ%3A1621098535537&ei=JwCgYKuWIKDH4-EPoJ2ciAI&oq=wishlist+of+web+design&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOgoIIxCuAhCwAxAnOgQIIxAnOgYIABAWEB46CAgAEBYQChAeOgIIADoICCEQFhAdEB46BwghEAoQoAFQoF9YxIUBYI2JAWgBcAB4AIABmwWIAe4ikgEJMC45LjkuNS0xmAEAoAEBqgEHZ3dzLXdpesgBAcABAQ&sclient=gws-wiz&ved=0ahUKEwjrxezSlszwAhWg4zgGHaAOByEQ4dUDCA4&uact=5">Wishlist</a></div>
+  
+      <div class="fa fa-history" style="margin-top: 10px; margin-bottom: 20px; margin-left: 20px;"><a style="position: relative; right: 50px;" href="chrome://history/">History</a></div>
+  
+      <div style=" margin-bottom: 20px; border-bottom: solid 2px black;"></div>
+  
+      <div class="row8"><svg style="color: deeppink;margin-left:20px;" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <circle cx="8" cy="8" r="8"/>
+      </svg><a style="position: relative; right: 50px;" href="https://www.google.com/search?q=fight+club+chuck+palahniuk&sxsrf=ALeKk01otnl0oloLUxTGUp1psv5o3A28FA%3A1621100319902&ei=HwegYPO0NrWd4-EP4LC96AQ&oq=fi+chuck+palahniuk&gs_lcp=Cgdnd3Mtd2l6EAEYADIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeOgoILhCwAxAnEJMCOgcIABCwAxBDOggIABCwAxCRAjoKCC4QsAMQyAMQQzoHCC4QJxCTAjoECAAQQzoECC4QQzoHCCMQsAIQJzoECAAQDToECC4QDUoFCDgSATFQtg1YpUVgmWBoBHAAeACAAcQCiAG7DJIBBzAuMy4zLjGYAQCgAQGqAQdnd3Mtd2l6yAEVwAEB&sclient=gws-wiz">Must Read Titles</a></div>
+  
+      <div class="row9" style="padding-top: 10px;"><svg style="color: orange; margin-left:20px;" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <circle cx="8" cy="8" r="8"/>
+      </svg><a style="position: relative; right: 50px;" href="https://www.google.com/search?q=best+of+list&ei=mgOgYLFwksbj4Q-68J-YAQ&oq=best+of+list&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyBAgAEAoyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46CAgAEOoCEI8BOgoIABDqAhAKEI8BOgUIABCRAjoICAAQsQMQgwE6CwguELEDEMcBEKMCOggILhCxAxCDAToECAAQQzoECC4QQzoICC4QxwEQowI6BQgAELEDOg4ILhCxAxCDARDHARCjAjoCCC46BwgAELEDEEM6BQguEJMCOgQILhAKUNnGFVjd2hVgit4VaAFwAngAgAHsBIgB1B2SAQswLjUuNC4yLjAuMpgBAKABAaoBB2d3cy13aXqwAQrAAQE&sclient=gws-wiz&ved=0ahUKEwixpdP3mczwAhUS4zgGHTr4BxMQ4dUDCA4&uact=5">Best of List</a></div>
+  
+      <div class="row10" style="margin-top: 10px;"><svg style="color: skyblue; margin-left:20px;" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <circle cx="8" cy="8" r="8"/>
+      </svg><a style="position: relative; right: 50px;" href="https://www.google.com/search?q=classic+novels&ei=AAWgYKvKKaSH8QOFn7u4CA&oq=classic+no&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQsQMyAggAMgIIADICCAAyCAguEMcBEK8BMgIIADICCAAyAggAMgIIADICCAA6CAgAEOoCEI8BOgoIABDqAhAKEI8BOgUIABCRAjoICAAQsQMQgwE6CggAELEDEIMBEEM6CAgAELEDEJECOgQIABBDOgQILhBDOgcILhCxAxBDOgcIABCxAxBDOggILhCxAxCDAToICAAQsQMQyQNQ4OADWKn5A2D7hARoAXACeACAAd4DiAHrFZIBCTAuNC41LjAuMpgBAKABAaoBB2d3cy13aXqwAQrAAQE&sclient=gws-wiz">Classic Novels</a></div>
+  
+      <div class="row11" style="margin-top: 10px;margin-bottom: 20px;"><svg style="color: slateblue; margin-left:20px;" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+        <circle cx="8" cy="8" r="8"/>
+      </svg><a style="position: relative; right: 50px;" href="https://www.google.com/search?q=non+fiction&oq=non+fict&aqs=chrome.0.0i433l2j0j69i57j0j0i10i131i433j0l4.5964j0j15&sourceid=chrome&ie=UTF-8">Non Fiction</a></div>
+  
+      <div style=" margin-bottom: 20px; border-bottom: solid 2px black;"></div>
+  
+      <div style="margin-top: 10px; word-spacing: 0px;">
+        <div class="fa fa-history" style="margin-left: 20px;"></div>
+      <p style="text-align: justify;position: relative; right: 20px; bottom: 25px; ">  You added <b style="color:gainsboro;">Fight Club</b> by <b style="color:gainsboro;">Chuck Palahniuk</b> to your <b style="color:gainsboro;">Must Read Titles.</b></p>
+      <p style="position: relative; right: 20px; bottom: 20px;">24 minutes ago</p>
+      </div>
+  
+      <div style="word-spacing: 0px;">
+        <div class="fa fa-history" style="margin-left: 20px;"></div>
+        <p style="text-align: justify;position: relative; right: 20px; bottom: 25px;">  You added <b style="color:gainsboro;">The Trial</b> by <b style="color:gainsboro;">Franz Kafka</b> to your <b style="color:gainsboro;">Must Read Titles.</b></p>
+      <p style="position: relative; right: 20px; bottom: 20px;">48 minutes ago</p>
+      </div>
+      <br><br><br><br>
+    </div>
+
+<div class="sub-container-2">
+  <div class="rowA" style="background-color: #eef1f8; border-bottom: solid 2px grey;"> <p style="color: gray; margin-top: 10px;margin-bottom: 10px; font-weight: bolder;font-size: large; margin-left: 15px;">Browse Available Books</p></div>
+
+  <div class="rowB" style="background-color: #eef1f8; border-bottom: solid 2px grey;height: 50px;">
+    <a href="https://www.bing.com/search?q=web%20devlopment%20books&pc=cosp&ptag=G6C19N2047AE19AA1A068&form=CONBNT&conlogo=CT3210127" style=" position: relative;top: 12px; margin-left: 15px; margin-top: 10px; padding: 5px; background-color: grey; color: white; border-radius: 8px;">All Books</a>
+  
+    <a href="https://www.bing.com/search?q=most+recent+books+of+web+development&qs=NWT&pq=most+recent+books+of+web+development&sc=1-36&cvid=2B58AC48AE29442C895CB6D4B28A6C3E&FORM=QBRE&sp=1" style="margin-left: 30px; color: grey;position: relative; top: 12px;">Most Recent</a>
+  
+    <a href="https://www.bing.com/search?q=most+popular+books+of+web+development&qs=n&form=QBRE&sp=-1&pq=most+popular+books+of+web+development&sc=1-37&sk=&cvid=4CDF959B27C24D1DB3F76699915E1CF5" style="margin-left: 30px; color: grey;position: relative; top: 12px;">Most Popular</a>
+  
+    <a href="https://www.bing.com/search?q=free+books+of+web+development&qs=n&form=QBRE&sp=-1&pq=free+books+of+web+development&sc=3-29&sk=&cvid=9125F646E89C4AB2AE2766286A341178" style="margin-left: 30px; color: grey;position: relative; top: 12px;">Free Books</a>
+  
+    <input type="text" placeholder="Enter Keywords" style="margin-left: 350px; color: grey; width: 300px; border-radius: 10px;border: solid 1px grey; position: relative; top: 11px;">
+  
+  </div>
+    
+    <div class="rowC" style="margin-top: 20px;margin-left: 15px;">
+    <div>
+      <figure>
+        <img src="../Ass-1 Submission/Assets/Jewels.jpg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Jowels of Nizam</figcaption>
+        <figcaption style="color: purple;">by Geeta Devi</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </figure>
+    </div>
+
+    <div>
+      <figure style="position: relative; left: 220px; bottom: 394px;margin-left: 5px;">
+        <img src="../Ass-1 Submission/Assets/cakes.jpeg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Cakes & Bakes</figcaption>
+        <figcaption style="color: purple;">by Sanjeev Kapoor</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </figure>
+    </div>
+
+    <div>
+      <figure style="position: relative; left: 440px; bottom: 788px;margin-left: 10px;">
+        <img src="../Ass-1 Submission/Assets/jamie oliver.jpeg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Jamles's Kitchen</figcaption>
+        <figcaption style="color: purple;">by Jamie Oliver</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star-half-full checked"></span>
+      </figure>
+    </div>
+
+    <div>
+      <figure style="position: relative; left: 660px; bottom: 1182px;margin-left: 15px;">
+        <img src="../Ass-1 Submission/Assets/easy.jpg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Inexpensive Family Meals</figcaption>
+        <figcaption style="color: purple;">by Simon Holst</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <svg style="color:orange; position:relative; bottom:2.5px" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+      </figure>
+    </div>
+    <div>
+      <figure style="position: relative; left: 880px; bottom: 1576px; margin-left: 20px;">
+        <img src="../Ass-1 Submission/Assets/paleo.jpeg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Palio Slow Cooking</figcaption>
+        <figcaption style="color: purple;">by Chrissy Gower</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star-half-full checked"></span>
+      </figure>
+    </div>
+  </div>
+    <div class="rowD" style="margin-left: 15px;">
+    <div>
+      <figure style="position: relative; left: 700; bottom: 1550px;">
+        <img src="../Ass-1 Submission/Assets/italian.jpeg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Cook Like an Italian</figcaption>
+        <figcaption style="color: purple;">by Tobie Puttock</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <svg style="color:orange; position:relative; bottom:2.5px" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+      </figure>
+    </div>
+    <div>
+      <figure style="position: relative; bottom: 1944px;left:225px;">
+        <img src="../Ass-1 Submission/Assets/indian.jpg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Suneeta Vaswani</figcaption>
+        <figcaption style="color: purple;">by Geeta Devi</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </figure>
+    </div>
+    <div>
+      <figure style="position: relative; bottom: 2338px;left:450px;">
+        <img src="../Ass-1 Submission/Assets/spain.jpg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Jamie Does</figcaption>
+        <figcaption style="color: purple;">by Jamie Oliver</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <svg style="color:orange; position:relative; bottom:2.5px" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+      </figure>
+    </div>
+    <div>
+      <figure style="position: relative; bottom: 2732px;left:675px;">
+        <img src="../Ass-1 Submission/Assets/jamie italy.jpeg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Jamie's Italy</figcaption>
+        <figcaption style="color: purple;">by Jamie Oliver</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </figure>
+    </div>
+    <div>
+      <figure style="position: relative; bottom: 3126px;left:900px;">
+        <img src="../Ass-1 Submission/Assets/complete books of vegetables.jpeg" alt="" height="300" width="210" >
+        <figcaption style="margin-top: 3px; color: purple; font-size: large; font-weight: bold;">Vegetables Cookbook</figcaption>
+        <figcaption style="color: purple;">by Matthew Biggs</figcaption>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star-half-full checked"></span>
+        <svg style="color:orange; position:relative; bottom:2.5px" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+      </figure>
+    </div>
+    <br>
+
+</div>
+</div>
+</div>
+
+<div class="footerclass" style="position: relative; bottom: 3143px;" >
+  <footer style="background-color: #181E2C;"> 
+
+
+        <!-- <i style="margin-left: 1200px; background-color: white;padding: 10px; margin-right: 0px;" class="fa fa-question-circle" aria-hidden="true"></i>
+        <i style="background-color: skyblue;padding: 10px;" class="fa fa-cog" aria-hidden="true"></i> -->
+        <!-- <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+            <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+            <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+          </svg> -->
+
+          <svg style="color: white; background-color:#1F2637;margin-left:1284px;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+          </svg>
+
+          <!-- <svg style="color: white;background-color: skyblue" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+          </svg> -->
+
+        <svg id="i2" style="margin-left: 20px;background-color: skyblue; color:white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+            <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+          </svg>
+        </footer>
+        </div>
+</body>
+</html>
