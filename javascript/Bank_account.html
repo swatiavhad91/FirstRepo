@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        const savingAccount = function (initialBalance) {
+            let accountBalance = initialBalance;
+
+            return {
+                getBalance: function () {
+                    return accountBalance;
+
+                },
+
+                deposit: function (amount) {
+
+                    accountBalance += amount;
+                    console.log("\n Depositing " + amount);
+                    console.log("\n Succesfully deposited " + amount + " in your account, New balance is : " + account.getBalance());
+                },
+                withdraw: function (amount) {
+                    if (amount > accountBalance) {
+                        return 'You cannot draw that much!';
+                    }
+
+                    accountBalance -= amount;
+                    console.log("\n Withdrawing " + amount)
+                    console.log("\n Successfully withdrawn " + amount + " from your account, Remaining balance is : " + account.getBalance());
+                }
+            };
+        }
+
+        const account = savingAccount(1000);
+        console.log("\n Initial Balance in your account is : " + account.getBalance());
+
+        console.log(account.deposit(1000));
+
+
+
+        console.log(account.withdraw(500));
+
+
+    </script>
+
+</body>
+
+</html>
