@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    form{
+        background-color: coral;
+        width: 30%;
+        height: 50%;
+    }
+</style>
+
+</head>
+<body>
+    
+<form action="">
+<div>
+    <label for="firstname"> Name </label>
+    <input type="text" id="fname" name="firstname">
+</div>
+<br>
+<div>
+    <label for="lastname">Last-Name</label>
+    <input type="text" id="lname" name="lastname">
+</div>
+<div>
+    <label for="marks"> Enter the Marks of all 5 Subjects: </label>
+    <br>
+        <label for="cpp">C++</label>
+       var cpp= <input type="number" id="cpp" name="cpp"><br>
+        <label for="java">Java</label>
+        <input type="number" id="java" name="java"><br>
+        <label for="c">C</label>
+        <input type="number" id="c" name="c"><br>
+        <label for="python">Python</label>
+        <input type="number" id="python" name="python"><br>
+        <label for="html">HTML</label>
+        <input type="number" id="html" name="html"><br>
+
+<button onclick=calculate()>Total</button>
+<label for="" id="data"></label>
+
+</div>
+
+</form>
+
+
+
+<script>
+  
+    function calculate(){
+        var cpp =document.getElementById("cpp").value;
+        var java=document.getElementById("java").value;
+        var c=document.getElementById("c").value;
+        var python=document.getElementById("python").value;
+        var html=document.getElementById("html").value;
+        var total;
+        total=cpp.value+java.value+c.value+python.value+html.value;
+        document.getElementById("data").innerHTML=total;
+        // document.write(total.value)
+    }
+</script>
+
+</body>
+</html>
