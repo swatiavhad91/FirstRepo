@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+
+function savingAccount1(bal)
+{
+    var balance=bal;
+
+    function deposit(amtD1)
+    {
+        var amtD=amtD1;
+        balance += amtD;
+        console.log("<br>Depositing " +amtD+ "to your account.")
+        console.log("<br>Successfully deposited"+amtD+ "Balance is : "+balance);
+
+    }
+  
+
+    function withdraw(amtW1)
+    {
+        var amtW=amtW1;
+        balance -=amtW;
+        console.log("<br>Withdrawing " +amtW+ "from your account");
+        console.log("<br>Successfully withdrawn "+amtW+ "New balance is : "+balance);
+    }
+   
+}
+
+
+
+</script>
+
+</body>
+</html>
